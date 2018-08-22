@@ -1,118 +1,57 @@
-
-
 body {
   background:url('../images/debut_light.png') repeat;
   font-family: 'Maven Pro', sans-serif;
 }
-.navbar-inverse { 
-    background-color: #283744;
-}
-.navbar {
-    min-height: 100px;
-    margin-bottom: 0;
-}
-div.navbar-header {
-    margin-top: 14px;
-}
-#navbar  {
-    margin-top: 20px;
-}
-a.navbar-brand {
-    font-size: 2.2em;
-    line-height: 0.9em;
-    text-align: center;
-    font-weight: 900;
-    padding: 0 15px;
-}
-ul.nav.navbar-nav {
-    margin-left: 50px;
-}
-ul.nav.navbar-nav li {
-    margin-left: 30px;
-    font-size: 1.4em;
-}
-.thumbnail {
-    border: none;
-    max-height: 155px;
-}
-.thumbnail img {
-    max-height: 155px;
-}
-.row {
-    margin-top: 40px;
-}
-header {
-    display: block;
-    font: 3em 'maven_pro_light300', Tahoma, sans-serif;
-    text-align: left;
-    color: #343434; text-shadow: 0px 2px 3px #808080;
-    background-color: Gray;
-    margin: 0;
-    padding:0;
-}
-header .dark {
-    color: #000; text-shadow: 0px 2px 3px #808080;
-}
-.jumbotron {
-    background:url(../images/grey_wash_wall.png) repeat;
-}
-.thumbnail {
-    background-color:transparent;
-}
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-    border-radius:10px;
-    background-color:#334250;
-}
-.jumbotron {
-padding-top: 125px;
 
+.row {
+  margin-top: 2rem;
 }
-#portfolio {
-    padding: 40px 0 100px 0;
-    margin-top: -40px;
+
+.navbar {
+  background-color: #283744;
 }
-#about {
-    padding: 40px 0 100px 0;
-    margin-top: -40px;
-    background-color: #dedede;
+
+.jumbotron {
+  background:url('../images/grey_wash_wall.png') repeat;
+  padding-top: 125px;
 }
-#contact {
-    padding: 40px 0 0 0;
-    margin-top: -40px;
-}
-section#contact .form-group textarea.form-control {
-    height: 136px;
-    
-}
-footer {
-     background-color: #283744;
-     color: lightGray;
-     padding: 20px 20px 20px 20px;
-    margin-top: 118px;
-}
-.space {
-    padding-top: 0.6em;
-}
-.icon {
-    float: left;
-    vertical-align: middle;
-    height: 3em;
-    margin-left: 2.1em;
-    
-}
-.icon-linkedin {
-    display: block;
-    vertical-align: middle;
-    margin-left: 34px;
-    width: 32px;
-    height: 32px;
-    background-image: url(../images/linkedin2.png);
-    background-repeat: no-repeat;
-}
-@media (max-width: 320px) {
+
+@media (min-width: 576px) {
   #jumbotron {
-    display: none !important;
+    padding: 0;
   }
+}
+
+.thumbnail {
+  border: none;
+  max-height: 150px;
+  background-color:transparent;
+  padding-bottom: 0.5rem;
+}
+
+#portfolio {
+  padding: 40px 0 100px 0;
+  margin-top: -40px;
+}
+
+#about {
+  padding: 40px 0 100px;
+  margin-top: -40px;
+  background-color: #dedede;
+}
+
+#contact {
+  padding: 40px 0 0 0;
+  margin-top: -40px;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 145px;
+}
+
+footer {
+  background-color: #283744;
+  color: lightGray;
+  padding: 20px;
+  margin-top: 118px;
 }
